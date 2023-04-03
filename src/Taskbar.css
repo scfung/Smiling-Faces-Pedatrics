@@ -2,7 +2,7 @@ ul {
     display: flex;
     justify-content: center;
     list-style-type: none;
-    background-color: #95BDFF;
+    background-color: red;
     margin: 0;
     padding: 0;
     overflow: hidden;
@@ -13,11 +13,11 @@ ul {
     float: left;
     text-align: center;
     padding: 10px 30px;
-    font-family: cursive;
+    font-family: 'Arvo', serif;
     font-size: 20px;
   }
   
   li:hover {
     background-color: #7286D3;
-    border-radius: 30px;
+    border-radius: 25px;
   }
