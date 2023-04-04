@@ -5,6 +5,8 @@ import Grid2 from '@mui/material/Unstable_Grid2'; // Grid version 2
 import { color, textAlign } from '@mui/system';
 import {Box} from '@mui/material';
 import { Stack } from '@mui/material';
+
+import './App.css';
 const theme = createTheme({
     palette: {
         primary: {
@@ -38,6 +40,8 @@ function Homepage(){
         <ThemeProvider theme={theme}>
             <Box sx={{
             minHeight: 700,
+            minWidth: 300,
+            maxHeight: 2000,
             backgroundColor: 'primary.main',
         }}>
             <Box sx={{
