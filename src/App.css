@@ -9,3 +9,8 @@
   color:mintcream;
 }
 
+#pic{
+  display: flexbox;
+  justify-content: center;
+  align-items: center;
+}

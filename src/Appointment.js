@@ -26,7 +26,7 @@ import MenuItem from '@mui/material/MenuItem';
 const theme = createTheme({
     palette: {
         primary: {
-            main: blue[400],
+            main: yellow[400],
         },
         secondary: red,
     },
@@ -94,7 +94,7 @@ function Appointments(){
                     </Grid2>
                     
                     <Grid2 xs={6} md={8} style={{display: "flex", justifyContent: 'center' }}>  
-                    <Button variant="contained" onClick={handleClickOpen} sx={{color: 'white', justifyContent: "center"}}>
+                    <Button variant="contained" onClick={handleClickOpen} sx={{color: 'black', justifyContent: "center"}}>
                         Click here to make an appointment.
                     </Button>
                      <Dialog open={open} onClose={handleClose}>
@@ -134,8 +134,8 @@ function Appointments(){
                     </LocalizationProvider>
                     </DialogContent>
                         <DialogActions>
-                            <Button onClick={handleClose}>Cancel</Button>
-                            <Button onClick={handleClose}>Confirm</Button>
+                            <Button onClick={handleClose} sx={{color: 'black'}}>Cancel</Button>
+                            <Button onClick={handleClose} sx={{color: 'black'}}>Confirm</Button>
                         </DialogActions>
                     </Dialog>
                     

@@ -6,11 +6,11 @@ import { color, textAlign } from '@mui/system';
 import {Box} from '@mui/material';
 import { Stack } from '@mui/material';
 
-import './App.css';
+
 const theme = createTheme({
     palette: {
         primary: {
-            main: blue[400],
+            main: yellow[400],
         },
         secondary: red,
     },
@@ -106,7 +106,8 @@ function Homepage(){
                         padding: 1,
                         maxWidth: 1000,
                     }}>
-                        Our clinic's phone number is <span style={{ fontWeight: 'bold' }}>718-345-1234</span> and is available during operating hours. We can be contacted through email at <span style={{ fontWeight: 'bold' }}>sfpediactrics@gmail.com</span>, our response time is typically with the same or next business day.
+                        Our clinic's phone number is <span style={{ fontWeight: 'bold' }}>718-345-1234</span> and is available during operating hours. 
+                        We can be contacted through email at <span style={{ fontWeight: 'bold' }}>sfpediactrics@gmail.com</span>, our response time is typically within the same or next business day.
                     </Typography>
                 
             </Box>

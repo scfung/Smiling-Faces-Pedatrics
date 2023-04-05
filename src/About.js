@@ -20,7 +20,7 @@ function About(){
     const theme = createTheme({
         palette: {
             primary: {
-                main: blue[400],
+                main: yellow[400],
             },
             secondary: red,
         },
@@ -128,7 +128,7 @@ function About(){
                     <Typography variant="h3" >
                         A pediatrican that graduated from the School of Medicine at Duke University.
                         She specializes in adolescent medicine, help children deal with their transitions to adults. 
-                        This includes eating disorderss, sports medicine, and sexual health. 
+                        This includes eating disorders, sports medicine, and sexual health. 
                         Dr. Garcia has been working in this field for just under three years.
                     </Typography>
                 </CardContent>
